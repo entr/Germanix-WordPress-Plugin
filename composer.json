@@ -1,0 +1,21 @@
+{
+  "name": "toscho/Germanix-WordPress-Plugin",
+  "type": "wordpress-plugin",
+  "description": "This WordPress-Plugin replaces Non-ASCII characters with appropriate transliterations in permalinks and uploads.",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Thomas Scholz",
+      "email": "info@toscho.de",
+      "homepage": "http://toscho.de/",
+      "role": "Developer"
+    }
+  ],
+  "archive": {
+    "exclude": [".git*", "*.MD", "*.textile"]
+  },
+  "require": {
+    "php": ">=5.2.4",
+    "composer/installers": "~1.0"
+  }
+}
